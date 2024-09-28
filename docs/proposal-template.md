@@ -17,7 +17,7 @@ Backend Technologies
 Nodejs and Flask(Python)
 MySQL for database management
 
-Cloud and Hosting - AWS
+Cloud and Hosting - Railway
 
 # Method/Approach
 
@@ -34,6 +34,6 @@ The project is intended to take the next two months for development.
 
 Technologies I will be using- I am developing my coding skills and this is a given challenge but I will flex my muscle and learning to ensure the system meets my sponsor's needs.
 
-Scalability and robustness of the system. As the full stack developer, I will have to ensure the software has very minimal downtime and is able to sustain many customers in its operability, most especially during work hours.
+Scalability and robustness of the system - As the full stack developer, I will have to ensure the software has very minimal downtime and is able to sustain many customers in its operability, most especially during work hours.
 
 Rising competition - I have to ensure that the system updates are made and in adherance with any developing technologies to ensure better efficiency for its users.
