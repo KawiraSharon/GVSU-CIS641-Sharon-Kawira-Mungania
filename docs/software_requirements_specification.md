@@ -8,7 +8,7 @@ This document is the Software Requirements Specification (SRS) for the Simple Ba
 
 2. Balance Check
   1.The system shall allow users to view their balance.
-  2.The system shall allow authorized users to view bank balance of any registered user.
+2.The system shall allow authorized users to view bank balance of any registered user.
 
 3. Transactional History
   1.The system shall update the user balance after every transaction.
