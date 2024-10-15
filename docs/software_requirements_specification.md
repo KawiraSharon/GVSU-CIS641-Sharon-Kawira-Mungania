@@ -3,12 +3,12 @@ This document is the Software Requirements Specification (SRS) for the Simple Ba
 
 # Functional Requirements
 1. **User Authentication**
-   1. The system shall allow verified users to sign in using their username and password.
-   2. The system shall allow verified users to sign out of the platform.
+   1.1 The system shall allow verified users to sign in using their username and password.
+   1.2 The system shall allow verified users to sign out of the platform.
 
 2. **Balance Check**
-   1. The system shall allow users to view their balance.
-   2. The system shall allow authorized users to view the bank balance of any registered user.
+   2.1 The system shall allow users to view their balance.
+   2.2 The system shall allow authorized users to view the bank balance of any registered user.
 
 3. **Transactional History**
    1. The system shall update the user balance after every transaction.
@@ -31,4 +31,4 @@ This document is the Software Requirements Specification (SRS) for the Simple Ba
    1. The system shall automatically alert users via email and in-app notifications 2 days prior to scheduled maintenance.
 
 3. **Security Measures**
-   1. The system shall allow users with incorrect username or password up to 4 sign-in attempts, after which they can retry after 30 seconds. If the fifth attempt fails, the user is locked out and asked to reset their password.
+      1. The system shall allow users with incorrect username or password up to 4 sign-in attempts, after which they can retry after 30 seconds. If the fifth attempt fails, the user is locked out and asked to reset their password.
