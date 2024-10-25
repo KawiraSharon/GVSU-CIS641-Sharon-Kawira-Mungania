@@ -20,7 +20,7 @@ Discussion points:
 
 Goals for next week (include responsibilities)
 
-*  User authentication feature began
+*  Week 3 - User authentication feature began
 *
 *
 
