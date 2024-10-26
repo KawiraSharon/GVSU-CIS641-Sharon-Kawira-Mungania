@@ -1,4 +1,4 @@
-Meeting minutes week 3
+## Meeting minutes week 3
 
 Members Present: Sharon Mungania
 
