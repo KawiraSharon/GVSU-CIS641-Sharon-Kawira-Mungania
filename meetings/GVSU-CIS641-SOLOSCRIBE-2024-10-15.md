@@ -13,7 +13,7 @@ Discussion points:
     * Reviewed implementation of the user authentication functionality.  
         Easy Sign up and sign in features. Confirmed sers can successfully sign in, sign up.  
         Enhanced UI using Tailwind and Shadcn.  
-
+  
     * Reviewed and resolved bugs thus far.
 
 Goals for next week:  
