@@ -8,10 +8,10 @@ Time: 12:00pm - 2:30pm, In-Person
  
 Discussion points:  
     * Reviewed implementation of the check balance functionality, transaction history page.  
-        - Confirmed users can view their account balance displayed.  
-        - Confirmed users can view their transactions real time, processing, successful and failed, depending on the status.  
+        Confirmed users can view their account balance displayed.  
+        Confirmed users can view their transactions real time, processing, successful and failed, depending on the status.  
     * Reviewed and resolved any bugs within the project.  
-        - Ensured code runs as expected.
+        Ensured code runs as expected.
 
 Goals for next week:  
     * Implement Fund Transfer Functionality.  
