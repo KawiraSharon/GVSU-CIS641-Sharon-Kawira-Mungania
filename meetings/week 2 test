@@ -1,12 +1,12 @@
-**Meeting minutes week 2**
+Meeting minutes week 2
 
-**Members Present:** Sharon Mungania
+Members Present: Sharon Mungania
 
-**Date:** 10/08/2024
+Date: 10/08/2024
 
-**Time:** 12:00pm - 2:30pm, In-Person
+Time: 12:00pm - 2:30pm, In-Person
 
-**Discussion points:**  
+Discussion points:  
 * Reviewed technologies to be used.  
     Frontend Technologies; Next.js, Tailwind, Shadcn, Reach Hookform, Typescript.  
     Backend Technologies; Next.js, Appwrite, Plaid, Zod, Server Actions.  
@@ -26,6 +26,6 @@
     Confirmed design of use-case, activity, crc card, class and object diagrams of the system.  
     Confirmed that all diagrams give a similar overview of the project and that each can be easily interpreted by business stakeholders with little or no technical knowhow.
 
-**Goals for next week:**  
+Goals for next week:  
 * Project initialization and setup.
 * Implement the user authentication feature.
