@@ -10,6 +10,8 @@
 		- The system shall allow authorized personnel to view bank balance for any registered user.  
 		- The system shall update user balance after each transaction.  
 		- The system shall allow users to view their balance.
+
+	
 	\* Reviewed non functional requirements for the system
 		- The system shall automatically alert users via email and in-app notifications 2 days prior to scheduled maintenance.
 
