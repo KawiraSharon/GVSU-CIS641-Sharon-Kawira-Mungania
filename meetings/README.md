@@ -4,8 +4,6 @@ Hold a team meeting at least once a week in some format.  Copy the following tem
 
 ## Meeting minutes template
 
-Team name:
-
 Members present:
 
 Date:
@@ -20,7 +18,6 @@ Discussion points:
 
 Goals for next week (include responsibilities)
 
-*  Week 3 - User authentication feature began
+* 
 *
 *
-
