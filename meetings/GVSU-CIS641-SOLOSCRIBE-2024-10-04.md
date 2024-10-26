@@ -6,10 +6,10 @@
 
 **Discussion points:**  
 	\* Reviewed functional requirements for the system  
-	The banking system shall allow users to log in using their username and password.  
-	The system shall allow authorized personnel to view bank balance for any registered user.  
-	The system shall update user balance after each transaction.  
-	The system shall allow users to view their balance.
+		- The banking system shall allow users to log in using their username and password.  
+		- The system shall allow authorized personnel to view bank balance for any registered user.  
+		- The system shall update user balance after each transaction.  
+		- The system shall allow users to view their balance.
 
 	\* Reviewed non functional requirements for the system  
 	The system shall automatically alert users via email and in-app notifications 2 days prior to scheduled maintenance.  
@@ -21,7 +21,7 @@
 		Homepage  
 		Transaction History Page  
 		Account Balance Feature  
-	Fund Transfer Feature	
+		Fund Transfer Feature	
 
 **Goals for next week:**  
 	\* Research on features to be implemented.  
