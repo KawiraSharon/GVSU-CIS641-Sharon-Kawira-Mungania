@@ -7,7 +7,7 @@ Date: 11/05/2024
 Time: 12:00pm - 2:30pm, In-Person
  
 Discussion points:  
-* * Attempted implementing the Fund Transfer Functionality. 
+* Attempted implementing the Fund Transfer Functionality. 
     Functionality yet to be finalized on.  
     Encountered  challenges with ensuring only verified user can transact securely.  
 * Reviewed softwares like Railway and Vercel I could use for the deployment of system  
