@@ -16,3 +16,4 @@ Discussion points:
 Goals for next week:  
 * Implement Fund Transfer Functionality.  
 * Research on and review softwares like Railway and Vercel I could use for the deployment of system
+
