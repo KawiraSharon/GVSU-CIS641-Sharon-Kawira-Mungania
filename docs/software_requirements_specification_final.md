@@ -22,12 +22,12 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| FR1 | The system shall provide users with email and password fields to authenticate and sign them into the platform. |
-| FR2 | The system shall allow registered users to sign in by entering their email and password, and clicking the 'Sign In' button. |
-| FR3 | The system shall not allow any unregistered users successful login attempts. |
-| FR4 | The system shall autosave sign-in details on devices where verified users have previously logged in. |
-| FR5 | The system shall allow verified users to bypass sign-in process on devices they had previously signed in. |
-| FR6 | The system shall keep users signed in on previously logged-in devices until they manually sign out or change their password. |
+| FR6 | The system shall provide users with email and password fields to authenticate and sign them into the platform. |
+| FR7 | The system shall allow registered users to sign in by entering their email and password, and clicking the 'Sign In' button. |
+| FR8 | The system shall not allow any unregistered users successful login attempts. |
+| FR9 | The system shall autosave sign-in details on devices where verified users have previously logged in. |
+| FR10 | The system shall allow verified users to bypass sign-in process on devices they had previously signed in. |
+| FR11 | The system shall keep users signed in on previously logged-in devices until they manually sign out or change their password. |
 
 ---
 
@@ -35,11 +35,11 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| FR1 | The system shall display a sign-out icon on the bottom-left sidebar that active users can use to end their session. |
-| FR2 | The system shall allow active platform users to sign out by clicking the sign-out icon. |
-| FR3 | The system shall redirect users to the sign-in page upon successful sign-out. |
-| FR4 | The system shall automatically sign out all active sessions when a user changes their password. |
-| FR5 | The system shall ensure that the user session ends when the sign-out icon is clicked. |
+| FR12 | The system shall display a sign-out icon on the bottom-left sidebar that active users can use to end their session. |
+| FR13 | The system shall allow active platform users to sign out by clicking the sign-out icon. |
+| FR14 | The system shall redirect users to the sign-in page upon successful sign-out. |
+| FR15 | The system shall automatically sign out all active sessions when a user changes their password. |
+| FR16 | The system shall ensure that the user session ends when the sign-out icon is clicked. |
 
 ---
 
@@ -47,11 +47,11 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| FR1 | The system shall allow users to send money to other registered users on the platform. |
-| FR2 | The system shall verify the recipient’s email address before processing the transaction. |
-| FR3 | The system shall allow users to cancel the transaction during processing if they choose not to finalize it. |
-| FR4 | The system shall allow users to enter any amount they wish to send, provided it includes a comma or period as a separator. |
-| FR5 | The system shall display an "Amount is too short" message for incorrectly formatted amounts. |
+| FR17 | The system shall allow users to send money to other registered users on the platform. |
+| FR18 | The system shall verify the recipient’s email address before processing the transaction. |
+| FR19 | The system shall allow users to cancel the transaction during processing if they choose not to finalize it. |
+| FR20 | The system shall allow users to enter any amount they wish to send, provided it includes a comma or period as a separator. |
+| FR21 | The system shall display an "Amount is too short" message for incorrectly formatted amounts. |
 
 ---
 
@@ -59,12 +59,12 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| FR1 | The system shall display detailed information for each transaction such as amount spent, and status. |
-| FR2 | The system shall allow users to view all past transactions and their accompanying details. |
-| FR3 | The system shall display transactions in chronological order, with the most recent transactions appearing first. |
-| FR4 | The system shall store transaction history. |
-| FR5 | The system shall display current user balance on top of the 'All Transactions' page. |
-| FR4 | The system shall refresh the 'All Transactions' page after each new transaction. |
+| FR22 | The system shall display detailed information for each transaction such as amount spent, and status. |
+| FR23 | The system shall allow users to view all past transactions and their accompanying details. |
+| FR24 | The system shall display transactions in chronological order, with the most recent transactions appearing first. |
+| FR25 | The system shall store transaction history. |
+| FR26 | The system shall display current user balance on top of the 'All Transactions' page. |
+| FR27 | The system shall refresh the 'All Transactions' page after each new transaction. |
 
 ---
 
@@ -72,11 +72,11 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| FR1 | The system shall display the user's balance on the top of the dashboard for easy visibility. |
-| FR2 | The system shall display the balance in both a larger and emboldened font to further enhance visibility. |
-| FR3 | The system shall ensure the balance is visible upon user sign-in, reducing the need for additional clicks to view their balance. |
-| FR4 | The system shall update the total balance after each transaction. |
-| FR5 | The system shall display the balance with a comma separator, following the expected in-app format to guide users when transacting.. |
+| FR28 | The system shall display the user's balance on the top of the dashboard for easy visibility. |
+| FR29 | The system shall display the balance in both a larger and emboldened font to further enhance visibility. |
+| FR30 | The system shall ensure the balance is visible upon user sign-in, reducing the need for additional clicks to view their balance. |
+| FR31 | The system shall update the total balance after each transaction. |
+| FR32 | The system shall display the balance with a comma separator, following the expected in-app format to guide users when transacting.. |
 
 ---
 
@@ -87,11 +87,11 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| NFR1 | The system shall only allow verified and registered users with emails that matches their passwords to sign into the platform. |
-| NFR2 | The system shall automatically sign out active user sessions when they change their passwords. |
-| NFR3 | The system shall safely encrypt all user data, including their sign in details, when both at rest and in transit. |
-| NFR4 | The system shall automatically lock the user account after five consecutive non-successful sign in attempts. |
-| NFR5 | The system shall store all security-related activities, including failed login attempts, for auditing purposes. |
+| NFR33 | The system shall only allow verified and registered users with emails that matches their passwords to sign into the platform. |
+| NFR34 | The system shall automatically sign out active user sessions when they change their passwords. |
+| NFR35 | The system shall safely encrypt all user data, including their sign in details, when both at rest and in transit. |
+| NFR36 | The system shall automatically lock the user account after five consecutive non-successful sign in attempts. |
+| NFR37 | The system shall store all security-related activities, including failed login attempts, for auditing purposes. |
 
 ---
 
@@ -99,11 +99,11 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| NFR1 | The system shall offer a very simple, user-friendly interface usable by non-technical users to complete tasks. |
-| NFR2 | The system shall provide clear and understandable error messages when the user enters an invalid format for required fields. |
-| NFR3 | The system shall offer a fully responsive interface across both desktop and mobile devices. |
-| NFR4 | The system shall ensure that all functionalities are easy to use and require minimal clicks. |
-| NFR5 | The system shall offer a personalized user experience by giving a welcome message with the user's first name on the dashboard. |
+| NFR38 | The system shall offer a very simple, user-friendly interface usable by non-technical users to complete tasks. |
+| NFR39 | The system shall provide clear and understandable error messages when the user enters an invalid format for required fields. |
+| NFR40 | The system shall offer a fully responsive interface across both desktop and mobile devices. |
+| NFR41 | The system shall ensure that all functionalities are easy to use and require minimal clicks. |
+| NFR42 | The system shall offer a personalized user experience by giving a welcome message with the user's first name on the dashboard. |
 
 ---
 
@@ -111,11 +111,11 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| NFR1 | The system shall ensure automatic access to the user dashboard within 2 seconds for 95% of users upon successful sign-in. |
-| NFR2 | The system shall automatically process money transfers within 10 seconds. |
-| NFR3 | The system shall respond to user click actions within 1 second. |
-| NFR4 | The system shall update transaction history within 1 second after users send or receive money. |
-| NFR5 | The system shall handle a minimum of 350 transactions per second at peak load times. |
+| NFR43 | The system shall ensure automatic access to the user dashboard within 2 seconds for 95% of users upon successful sign-in. |
+| NFR44 | The system shall automatically process money transfers within 10 seconds. |
+| NFR45 | The system shall respond to user click actions within 1 second. |
+| NFR46 | The system shall update transaction history within 1 second after users send or receive money. |
+| NFR47 | The system shall handle a minimum of 350 transactions per second at peak load times. |
 
 ---
 
@@ -123,11 +123,11 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| NFR1 | The system shall ensure an uptime of 99.9% throughout the year. |
-| NFR2 | The system shall be accessible 24/7 during all weekdays. |
-| NFR3 | The system shall automatically recover from network outages within 30 seconds. |
-| NFR4 | The system shall support reliable transaction processing even during scheduled maintenance. |
-| NFR5 | The system shall ensure data security and integrity even when there are unexpected shutdowns. |
+| NFR48 | The system shall ensure an uptime of 99.9% throughout the year. |
+| NFR49 | The system shall be accessible 24/7 during all weekdays. |
+| NFR50 | The system shall automatically recover from network outages within 30 seconds. |
+| NFR51 | The system shall support reliable transaction processing even during scheduled maintenance. |
+| NFR52 | The system shall ensure data security and integrity even when there are unexpected shutdowns. |
 
 ---
 
@@ -135,11 +135,11 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| NFR1 | The system shall support 36,350 simultaneous users without performance degradation.. |
-| NFR2 | The system shall allow maintenance to be performed without affecting system availability or scalability. |
-| NFR3 | The system shall handle a 33% increase in transaction operations at peak times without latency. |
-| NFR4 | The system shall dynamically allocate resources based on real-time demand to ensure scalability without affecting system availability. |
-| NFR5 | The system shall use Appwrite to ensure database queries optimize scalability, even under heavy user load. |
+| NFR53 | The system shall support 36,350 simultaneous users without performance degradation.. |
+| NFR54 | The system shall allow maintenance to be performed without affecting system availability or scalability. |
+| NFR55 | The system shall handle a 33% increase in transaction operations at peak times without latency. |
+| NFR56 | The system shall dynamically allocate resources based on real-time demand to ensure scalability without affecting system availability. |
+| NFR57 | The system shall use Appwrite to ensure database queries optimize scalability, even under heavy user load. |
 
 ---
 
@@ -227,14 +227,6 @@ Continous monitoring and preventative measures.
     This step will ensure smooth operations of the system, and that in case it arises again, it is addressed promptly.
 
 
-# Traceability links
-<Description of this section>
-## Use Case Diagram Traceability
-| Artifact ID | Artifact Name | Requirement ID |
-| :-------------: | :----------: | :----------: |
-| UseCase1 | Move Player | FR5 |
-| … | … | … |
-
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
@@ -246,3 +238,101 @@ Continous monitoring and preventative measures.
 | :-------------: | :----------: | :----------: |
 | <filename> | Handle Player Input | FR1-5, NFR2 |
 | … | … | … |
+
+# Traceability Links
+
+## Use Case Diagram1 Traceability
+| Artifact ID | Use Case Name             | Requirement ID(s)              |
+| :---------: | :------------------------:| :----------------------------: |
+| UseCase1         | Sign Up              | FR1, FR2, FR3, FR4, FR5        |
+| UseCase2         | Sign In              | FR1, FR2, FR3, FR4, FR5, FR6   |
+| UseCase3         | Sign Out             | FR1, FR2, FR3, FR4, FR5        |
+| UseCase4         | Send Money           | FR1, FR2, FR3, FR4, FR5        |
+| UseCase5         | View All Transactions| FR1, FR2, FR3, FR4, FR5        |
+| UseCase6         | View Total Balance   | FR1, FR2, FR3, FR4, FR5        |
+
+## Use Case Diagram 2 Traceability
+
+| Artifact ID      |  Artifact Name       | Requirement ID                |
+|:---------------: | :-------------------:| :--------------------------:  |
+| UseCase1         | Sign In              | FR1, FR2                      |
+| UseCase2         | Reset Password       | TBD                           |
+| UseCase3         | View Total Balance   | FR4, NFR2, NFR3               |
+| UseCase4         | Sign Out             | FR5, NFR1                     |
+
+
+## Use Case Diagram 3 Traceability
+
+| Artifact ID      | Artifact Name             | Requirement ID                |
+|:---------------: |:-----------------------:  |------------------------------:|
+| UseCase5         | Update Account Balance    | FR3, FR4, NFR5                |
+| UseCase6         | Withdraw Money            | NFR6, FR6 (Phased Out)        |
+| UseCase7         | Transfer Funds (Money)    | FR7, NFR7                     |
+| UseCase8         | Deposit Money             | NFR6, FR8 (Phased Out)        |
+
+---
+
+## Activity Diagram2 Traceability
+
+| Artifact ID      | Artifact Name             | Requirement ID                |
+|:---------------: |:------------------------: |:-----------------------------:|
+| **AD1**          | Sign In                   | FR1, FR2                      |
+| **AD2**          | Reset Password            | TBD                           |
+| **AD3**          | View Total Balance        | FR4, NFR2, NFR3               |
+
+---
+
+## Activity Diagram3 Traceability 
+
+| Artifact ID      | Artifact Name             |        Requirement ID         |
+|:----------------:|:-------------------------:|:-----------------------------:|
+| **AD4**          | Withdraw Money            | NFR6 (Phased Out)             |
+| **AD5**          | Transfer Money (Funds)    | FR7, NFR7                     |
+| **AD6**          | Deposit Money             | NFR6, FR8 (Phased Out)        |
+| **AD7**          | Update Account Balance    | FR3, FR4, NFR5                |
+
+
+
+## Customer_Class Diagram_Customer Traceability
+| Class Name        | Requirement ID(s)                  |
+| :---------------: | :---------------------------------:|
+| classCustomer          | FR1, FR2, NFR1, NFR3               |
+| classPaymentGateway   | FR1, FR2, FR3, NFR2, NFR5          |
+| classAccount           | FR1, FR2, FR3, NFR1, NFR3, NFR5    |
+| classBank              | FR1, FR3, NFR1, NFR2               |
+| classAuthentication    | FR1, FR2, FR4, NFR1, NFR3, NFR5    |
+| Transaction        | FR3, FR4, NFR2, NFR5         |
+
+---
+
+
+
+## Activity Diagram Traceability
+| Artifact ID | Activity Name          | Requirement ID(s)          |
+| :---------: | :--------------------: | :------------------------: |
+| AD1         | Handle Sign Up         | FR1, FR2, FR3, NFR1        |
+| AD2         | Handle Send Money      | FR1, FR4, NFR3, NFR4       |
+
+
+
+
+
+Please note that the project was implemented as a two-course project. Please see below the features implemented for this course; CIS 641, Systems Analysis and Design, versus the features implemented for course CIS611, Introduction to Software Engineering.
+
+Features Implemented for Course CIS 641
+- Sign Up, Sign In, Sign Out
+- Total Balance
+- Transaction Overview
+- All Transactions
+- Transfer Funds Functionality
+- Personalizing User Experience with a “Welcome <first name>” message 
+- Dwolla API Integration to ensure smooth and seamless money transfers
+
+Features Implemented for course CIS 611
+- See All Transactions
+- Bank Accounts
+- Link Bank Account
+- Transaction Classifications
+- Add Banking Account
+- SSR Authentication for linking another bank account using Plaid
+- Plaid and Dwolla Integration to handle multiple bank accounts and transactions
