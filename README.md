@@ -1,6 +1,6 @@
 # Soloscribe
 
-BankingMadeSimple is a banking application that utilizes a simple and intuitive user iterface to allow users to perform simple banking operations like signing up, signing in and out, sending and receiving money. It also allows users to link multiple bank accounts by utilizing an API called Plaid.
+BankingMadeSimple is a banking application that utilizes a simple and intuitive user interface to allow users to perform simple banking operations like signing up, signing in and out, sending and receiving money. It also allows users to link multiple bank accounts by utilizing an API called Plaid.
 
 ## Team Members and Roles
 
@@ -22,13 +22,13 @@ Open your terminal and paste the clone command:
 git clone <command copied from GitHub>
 ```
 
-Navigate to your project directory:
+Navigate to the project directory:
 ```bash
 cd <your repository>
 ```
 
 #### 3. Install and Pull All Dependencies and Requirements
-Run this command to install all necessary dependencies:
+Run this command to install the necessary dependencies:
 ```bash
 npm install
 ```
@@ -66,19 +66,19 @@ Once the environment variables are set up, run the application using:
 npm run dev
 ```
 
-Nextjs port is 3000, therefore the application will run on:
+Next.js uses port 3000, so the application will run on:
 [http://localhost:3000](http://localhost:3000)
 
-#### 6. Deploying Using Vercel
+## 6. Deploying Using Vercel
 To deploy the project using Vercel, follow these steps:
 
 1. Go to the [Vercel Website](https://vercel.com/) and create an account if you don't have one.
-2. Link your GitHub repository to deploy the application directly from your already cloned, installed, and running project, by connecting your github account.
-3. You can also deploy the website by importing my repository here:
+2. Link your GitHub repository to deploy the application directly from your already cloned, installed, and running project, which should also have pushed to GitHub, by connecting your GitHub account as will be seen on the Vercel website.
+3. You can also deploy the project by importing my repository here:
    [BankingMadeSimple](https://github.com/KawiraSharon/GVSU-CIS641-Soloscribe.git)
 4. Update the environment variables on the Vercel website, matching those from your `.env.local` file.
 5. Scroll down and click "Deploy".
-6. After the first build, update the website url as well.
+6. After the first build, update the website URL as well.
 
 ---
 
