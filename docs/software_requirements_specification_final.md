@@ -87,11 +87,11 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| NFR33 | The system shall only allow verified and registered users with emails that matches their passwords to sign into the platform. |
-| NFR34 | The system shall automatically sign out active user sessions when they change their passwords. |
-| NFR35 | The system shall safely encrypt all user data, including their sign in details, when both at rest and in transit. |
-| NFR36 | The system shall automatically lock the user account after five consecutive non-successful sign in attempts. |
-| NFR37 | The system shall store all security-related activities, including failed login attempts, for auditing purposes. |
+| NFR1 | The system shall only allow verified and registered users with emails that matches their passwords to sign into the platform. |
+| NFR2 | The system shall automatically sign out active user sessions when they change their passwords. |
+| NFR3 | The system shall safely encrypt all user data, including their sign in details, when both at rest and in transit. |
+| NFR4 | The system shall automatically lock the user account after five consecutive non-successful sign in attempts. |
+| NFR5 | The system shall store all security-related activities, including failed login attempts, for auditing purposes. |
 
 ---
 
@@ -99,11 +99,11 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| NFR38 | The system shall offer a very simple, user-friendly interface usable by non-technical users to complete tasks. |
-| NFR39 | The system shall provide clear and understandable error messages when the user enters an invalid format for required fields. |
-| NFR40 | The system shall offer a fully responsive interface across both desktop and mobile devices. |
-| NFR41 | The system shall ensure that all functionalities are easy to use and require minimal clicks. |
-| NFR42 | The system shall offer a personalized user experience by giving a welcome message with the user's first name on the dashboard. |
+| NFR6 | The system shall offer a very simple, user-friendly interface usable by non-technical users to complete tasks. |
+| NFR7 | The system shall provide clear and understandable error messages when the user enters an invalid format for required fields. |
+| NFR8 | The system shall offer a fully responsive interface across both desktop and mobile devices. |
+| NFR9 | The system shall ensure that all functionalities are easy to use and require minimal clicks. |
+| NFR10 | The system shall offer a personalized user experience by giving a welcome message with the user's first name on the dashboard. |
 
 ---
 
@@ -111,11 +111,11 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| NFR43 | The system shall ensure automatic access to the user dashboard within 2 seconds for 95% of users upon successful sign-in. |
-| NFR44 | The system shall automatically process money transfers within 10 seconds. |
-| NFR45 | The system shall respond to user click actions within 1 second. |
-| NFR46 | The system shall update transaction history within 1 second after users send or receive money. |
-| NFR47 | The system shall handle a minimum of 350 transactions per second at peak load times. |
+| NFR11 | The system shall ensure automatic access to the user dashboard within 2 seconds for 95% of users upon successful sign-in. |
+| NFR12 | The system shall automatically process money transfers within 10 seconds. |
+| NFR13 | The system shall respond to user click actions within 1 second. |
+| NFR14 | The system shall update transaction history within 1 second after users send or receive money. |
+| NFR15 | The system shall handle a minimum of 350 transactions per second at peak load times. |
 
 ---
 
@@ -123,11 +123,11 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| NFR48 | The system shall ensure an uptime of 99.9% throughout the year. |
-| NFR49 | The system shall be accessible 24/7 during all weekdays. |
-| NFR50 | The system shall automatically recover from network outages within 30 seconds. |
-| NFR51 | The system shall support reliable transaction processing even during scheduled maintenance. |
-| NFR52 | The system shall ensure data security and integrity even when there are unexpected shutdowns. |
+| NFR16 | The system shall ensure an uptime of 99.9% throughout the year. |
+| NFR17 | The system shall be accessible 24/7 during all weekdays. |
+| NFR18 | The system shall automatically recover from network outages within 30 seconds. |
+| NFR19 | The system shall support reliable transaction processing even during scheduled maintenance. |
+| NFR20 | The system shall ensure data security and integrity even when there are unexpected shutdowns. |
 
 ---
 
@@ -135,11 +135,11 @@ This section contains a description of the functional and non-functional require
 
 | ID  | Requirement                                                       |
 | :--:| :-----------------------------------------------------------------:|
-| NFR53 | The system shall support 36,350 simultaneous users without performance degradation.. |
-| NFR54 | The system shall allow maintenance to be performed without affecting system availability or scalability. |
-| NFR55 | The system shall handle a 33% increase in transaction operations at peak times without latency. |
-| NFR56 | The system shall dynamically allocate resources based on real-time demand to ensure scalability without affecting system availability. |
-| NFR57 | The system shall use Appwrite to ensure database queries optimize scalability, even under heavy user load. |
+| NFR21 | The system shall support 36,350 simultaneous users without performance degradation.. |
+| NFR22 | The system shall allow maintenance to be performed without affecting system availability or scalability. |
+| NFR23 | The system shall handle a 33% increase in transaction operations at peak times without latency. |
+| NFR24 | The system shall dynamically allocate resources based on real-time demand to ensure scalability without affecting system availability. |
+| NFR25 | The system shall use Appwrite to ensure database queries optimize scalability, even under heavy user load. |
 
 ---
 
