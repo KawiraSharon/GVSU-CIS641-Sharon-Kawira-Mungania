@@ -241,79 +241,72 @@ Continous monitoring and preventative measures.
 
 # Traceability Links
 
-## Use Case Diagram1 Traceability
-| Artifact ID | Use Case Name             | Requirement ID(s)              |
-| :---------: | :------------------------:| :----------------------------: |
-| UseCase1         | Sign Up              | FR1, FR2, FR3, FR4, FR5        |
-| UseCase2         | Sign In              | FR1, FR2, FR3, FR4, FR5, FR6   |
-| UseCase3         | Sign Out             | FR1, FR2, FR3, FR4, FR5        |
-| UseCase4         | Send Money           | FR1, FR2, FR3, FR4, FR5        |
-| UseCase5         | View All Transactions| FR1, FR2, FR3, FR4, FR5        |
-| UseCase6         | View Total Balance   | FR1, FR2, FR3, FR4, FR5        |
+### Use Case Diagram 1 Traceability
 
-## Use Case Diagram 2 Traceability
-
-| Artifact ID      |  Artifact Name       | Requirement ID                |
-|:---------------: | :-------------------:| :--------------------------:  |
-| UseCase1         | Sign In              | FR1, FR2                      |
-| UseCase2         | Reset Password       | TBD                           |
-| UseCase3         | View Total Balance   | FR4, NFR2, NFR3               |
-| UseCase4         | Sign Out             | FR5, NFR1                     |
-
-
-## Use Case Diagram 3 Traceability
-
-| Artifact ID      | Artifact Name             | Requirement ID                |
-|:---------------: |:-----------------------:  |------------------------------:|
-| UseCase5         | Update Account Balance    | FR3, FR4, NFR5                |
-| UseCase6         | Withdraw Money            | NFR6, FR6 (Phased Out)        |
-| UseCase7         | Transfer Funds (Money)    | FR7, NFR7                     |
-| UseCase8         | Deposit Money             | NFR6, FR8 (Phased Out)        |
+| Artifact ID | Use Case Name        | Requirement ID        |
+|:---------------:|:------------------------:|:----------------------------:|
+| UseCase1        | Sign Up                  | FR1, FR2, FR3, FR4, FR5      |
+| UseCase2        | Sign In                  | FR6, FR7, FR8, FR9, FR10, FR11 |
+| UseCase3        | Sign Out                 | FR12, FR13, FR14, FR15, FR16 |
+| UseCase4        | Send Money               | FR17, FR18, FR19, FR20, FR21 |
+| UseCase5        | View All Transactions    | FR22, FR23, FR24, FR25, FR26, FR27 |
+| UseCase6        | View Total Balance       | FR28, FR29, FR30, FR31, FR32 |
 
 ---
 
-## Activity Diagram2 Traceability
+### Use Case Diagram 2 Traceability
 
-| Artifact ID      | Artifact Name             | Requirement ID                |
-|:---------------: |:------------------------: |:-----------------------------:|
-| **AD1**          | Sign In                   | FR1, FR2                      |
-| **AD2**          | Reset Password            | TBD                           |
-| **AD3**          | View Total Balance        | FR4, NFR2, NFR3               |
-
----
-
-## Activity Diagram3 Traceability 
-
-| Artifact ID      | Artifact Name             |        Requirement ID         |
-|:----------------:|:-------------------------:|:-----------------------------:|
-| **AD4**          | Withdraw Money            | NFR6 (Phased Out)             |
-| **AD5**          | Transfer Money (Funds)    | FR7, NFR7                     |
-| **AD6**          | Deposit Money             | NFR6, FR8 (Phased Out)        |
-| **AD7**          | Update Account Balance    | FR3, FR4, NFR5                |
-
-
-
-## Customer_Class Diagram_Customer Traceability
-| Class Name        | Requirement ID(s)                  |
-| :---------------: | :---------------------------------:|
-| classCustomer          | FR1, FR2, NFR1, NFR3               |
-| classPaymentGateway   | FR1, FR2, FR3, NFR2, NFR5          |
-| classAccount           | FR1, FR2, FR3, NFR1, NFR3, NFR5    |
-| classBank              | FR1, FR3, NFR1, NFR2               |
-| classAuthentication    | FR1, FR2, FR4, NFR1, NFR3, NFR5    |
-| Transaction        | FR3, FR4, NFR2, NFR5         |
+| Artifact ID | Use Case Name        | Requirement ID        |
+|:---------------:|:------------------------:|:----------------------------:|
+| UseCase1        | Sign In                  | FR6, FR7                      |
+| UseCase2        | Reset Password           | TBD                           |
+| UseCase3        | View Total Balance       | FR28, NFR2, NFR3              |
+| UseCase4        | Sign Out                 | FR12, NFR1                    |
 
 ---
 
+### Use Case Diagram 3 Traceability
 
+| Artifact ID | Use Case Name        | Requirement ID        |
+|:---------------:|:------------------------:|:----------------------------:|
+| UseCase1        | Update Account Balance   | FR31, NFR5                    |
+| UseCase2        | Withdraw Money           | TBD             |
+| UseCase3        | Transfer Funds (Money)   | FR17, NFR7                    |
+| UseCase4        | Deposit Money            | TBD             |
 
-## Activity Diagram Traceability
-| Artifact ID | Activity Name          | Requirement ID(s)          |
-| :---------: | :--------------------: | :------------------------: |
-| AD1         | Handle Sign Up         | FR1, FR2, FR3, NFR1        |
-| AD2         | Handle Send Money      | FR1, FR4, NFR3, NFR4       |
+---
 
+### Activity Diagram 2 Traceability
 
+| Artifact ID | Activity Name       | Requirement ID        |
+|:---------------:|:------------------------:|:----------------------------:|
+| Activity_Diagram-2 | Sign In                | FR6, FR7                      |
+| Activity_Diagram-2 | Reset Password         | TBD                           |
+| Activity_Diagram-2 | View Total Balance     | FR28, NFR2, NFR3              |
+
+---
+
+### Activity Diagram 3 Traceability
+
+| Artifact ID | Activity Name        | Requirement ID       |
+|:---------------:|:------------------------:|:----------------------------:|
+| Activity_Diagram-3 | Withdraw Money         | TBD             |
+| Activity_Diagram-3 | Transfer Money (Funds) | FR17, NFR7                    |
+| Activity_Diagram-3 | Deposit Money          | TBD             |
+| Activity_Diagram-3 | Update Account Balance | FR31, NFR5                    |
+
+---
+
+### **Class Diagram Traceability**
+
+| Class Name        | **Requirement ID                  |
+|:---------------------:|:--------------------------------------:|
+| classCustomer         | FR1, FR2, NFR1, NFR3                   |
+| classPaymentGateway   | FR17, FR18, NFR2, NFR5                 |
+| classAccount          | FR28, FR31, NFR1, NFR3, NFR5           |
+| classBank             | FR17, FR31, NFR1, NFR2                 |
+| classAuthentication   | FR6, FR7, FR11, NFR1, NFR3, NFR5       |
+| Transaction           | FR22, FR24, NFR2, NFR5                 |
 
 
 
