@@ -147,84 +147,84 @@ This section contains a description of the functional and non-functional require
 This section outlines the change management plan for the BankingMadeSimple application, emphasizing user adoption and implementation. The goal is to ensure that individual users can easily integrate and adopt the application into their daily banking activities, ensuring a simple, seamless and efficient user experience.
 
 #### Training people to use the application
-###### Incorporating a product tour for first time users. 
-    This feature will provide a step by step guidance for first time users to ensure they are not overwhelmed by the features of the application. The tour will help users know where to find each functionality where it begins as follows;
-    Begin with a welcome message, shows users where to enter their details securely, the sign in, sign up functionalities.
-    Explain the dashboard layout by showing the user where to view their total balance.
-    Guide users on how to initiate a money transfer, explain that they complete the action by clicking the 'Send Money' button.
-    The tour will show users where to find their transaction history.
-    An 'exit tour' button to show that the tour is complete. This option shall however remain in the settings icon that will be implemented in the future. 
-    The tour will also offer a 'Next' button when each step is seen, or a 'Skip' tour button, altogether offering the liberty to users to skip the tour altogether.
+Incorporating a product tour for first time users. 
+- This feature will provide a step by step guidance for first time users to ensure they are not overwhelmed by the features of the application. The tour will help users know where to find each functionality where it begins as follows;
+- Begin with a welcome message, shows users where to enter their details securely, the sign in, sign up functionalities.
+- Explain the dashboard layout by showing the user where to view their total balance.
+- Guide users on how to initiate a money transfer, explain that they complete the action by clicking the 'Send Money' button.
+- The tour will show users where to find their transaction history.
+- An 'exit tour' button to show that the tour is complete. This option shall however remain in the settings icon that will be implemented in the future. 
+- The tour will also offer a 'Next' button when each step is seen, or a 'Skip' tour button, altogether offering the liberty to users to skip the tour altogether.
 
-###### The application shall incorporate a chatbot and a tech support email.
-    Users will be encouraged to use the chatbot for common questions, FAQs and troubleshooting purposes, generally for quick help. They will be encouraged to use the tech support email for more complex inquiries. Users will be asked to provide feedback after interacting with the chatbot and email. This will provide insights on how useful these resources will be, and enable address any areas of improvement.
+The application shall incorporate a chatbot and a tech support email.
+- Users will be encouraged to use the chatbot for common questions, FAQs and troubleshooting purposes, generally for quick help. They will be encouraged to use the tech support email for more complex inquiries. Users will be asked to provide feedback after interacting with the chatbot and email. This will provide insights on how useful these resources will be, and enable address any areas of improvement.
  
-###### Successes will be identified and reinforced by monitoring, analysing and recording the metrics of user activity like money transfers. That information will be shared as part of a success story that will be used to encourage others to adopt and use the application.
+Successes will be identified and reinforced by monitoring, analysing and recording the metrics of user activity like money transfers. That information will be shared as part of a success story that will be used to encourage others to adopt and use the application.
 
-###### Continuous Training and Updates;
-    As new users are onboarded and existing users continue to engage with the application, continuous training and updates will play a critical role in ensuring the app’s ongoing success goes hand in hand with user adoption.
-    This will be done by taking the following steps;
-    Onboarding new users by giving them a product tour as discussed above.
-    Ongoing learning for already existing users where they will be given regular notifications and reminders on any new features and updates.
-    Both users will be periodically notified of any underused implemented features and why they should explore them.
+Continuous Training and Updates;
+- As new users are onboarded and existing users continue to engage with the application, continuous training and updates will play a critical role in ensuring the app’s ongoing success goes hand in hand with user adoption.
+- This will be done by taking the following steps;
+- Onboarding new users by giving them a product tour as discussed above.
+- Ongoing learning for already existing users where they will be given regular notifications and reminders on any new features and updates.
+- Both users will be periodically notified of any underused implemented features and why they should explore them.
 
-###### User feedback will be collected by conducting surveys and anecdotal feedback.
-    First time users will be prompted to provide feedback through surveys and feedback forms. 
-    Interviews and casual conversations will be used to collect anecdotal feedback in gaining insights on how users feel about the application, and any areas they may want improved.
+User feedback will be collected by conducting surveys and anecdotal feedback.
+- First time users will be prompted to provide feedback through surveys and feedback forms. 
+- Interviews and casual conversations will be used to collect anecdotal feedback in gaining insights on how users feel about the application, and any areas they may want improved.
 
-###### Consistent compliance audits
-    These will ensure the application functionalities align with legal and standard requirements especially the security, data and privacy regulations.
-    Embedding a video that explains how to use the in-app functionalities, so they can easily get themselves acquainted with the application and its functionalities. The video will be periodically updated with any new features.
-    User feedback will be collected on any areas of resistance by users, and any technical features introduced and used in the revision and implementation of any necessary changes. Work with the sponsor will also be incorporated to address the areas of feedback and offer any additional required training.
+Consistent compliance audits
+- These will ensure the application functionalities align with legal and standard requirements especially the security, data and privacy regulations.
+- Embedding a video that explains how to use the in-app functionalities, so they can easily get themselves acquainted with the application and its functionalities. The video will be periodically updated with any new features.
+- User feedback will be collected on any areas of resistance by users, and any technical features introduced and used in the revision and implementation of any necessary changes. Work with the sponsor will also be incorporated to address the areas of feedback and offer any additional required training.
 
 #### Ensuring it integrates within their ecosystem / software
-###### Planning and feasibility analysis
-    Understand the current system - assess current systems within the customer's ecosystem and identify any compatibility issues that may arise with using the new banking app, also for future risk mitigation.
-    Identify any integration requirements - ensure data formats are catered for, APIs and interfaces as well, and ensure security protocols that ensure data security and integrity are catered for.
+Planning and feasibility analysis
+- Understand the current system - assess current systems within the customer's ecosystem and identify any compatibility issues that may arise with using the new banking app, also for future risk mitigation.
+- Identify any integration requirements - ensure data formats are catered for, APIs and interfaces as well, and ensure security protocols that ensure data security and integrity are catered for.
 
-###### Calculate and outline the scope, schedule and cost expected from the integration
-    Identify how much time the intergration requires, including when it starts.
-    Identify resources needed, including technical expertise and support.
-    Identify any potential risks and put in place mitigation strategies.
+Calculate and outline the scope, schedule and cost expected from the integration
+- Identify how much time the intergration requires, including when it starts.
+- Identify resources needed, including technical expertise and support.
+- Identify any potential risks and put in place mitigation strategies.
 
-###### Put together the planning and feasibility analysis, and calculate the scope, schedule and cost to identiy whether the integration is possible, and make any adjustments to accordingly cater for any potential issues moving forward.
+Put together the planning and feasibility analysis, and calculate the scope, schedule and cost to identiy whether the integration is possible, and make any adjustments to accordingly cater for any potential issues moving forward.
 
-###### Architecture Modelling
-    This step ensures designing of the integration architecture to ensure systems communicate and function together without issues.
-    Begin with choosing the integration model - Research on and choose either a hub-and-spoke, middleware or point-to-point model, according to the customer's specific needs.
-    Designing the communication blueprint - to define how the systems will communicate by ensuring data loss is avoided. Data formats and structures alignment is catered for.
-    Create preliminary and physical designs - UML diagrams and any other high level diagramming and representation of the system architecture should be created. Provide details on how data is expected to flow between the systems.
+Architecture Modelling
+- This step ensures designing of the integration architecture to ensure systems communicate and function together without issues.
+- Begin with choosing the integration model - Research on and choose either a hub-and-spoke, middleware or point-to-point model, according to the customer's specific needs.
+- Designing the communication blueprint - to define how the systems will communicate by ensuring data loss is avoided. Data formats and structures alignment is catered for.
+- Create preliminary and physical designs - UML diagrams and any other high level diagramming and representation of the system architecture should be created. Provide details on how data is expected to flow between the systems.
 
-###### Implementation
-    This phase will see the actual connection of the systems.
-    This will be completed following these steps;
-    System Testing - the BankingMadeSimple application will be put through rigorous testing to ensure all modules interact seamlessly and work well with each other, the data synchronization, functionality testing, and security testing modules will be specifically rigorously tested to ensure no vulnerabilities.
-    Pilot Testing - implement a miniature version of the application to ensure any identified issues are addressed before the whole system is rolled out. User feedback is highly valuable in this phase.
-    Go-Live - after successful testing and integration of the application, full deployment will be rolled out to ensure the application is available to users.
-    Agile Project Management - throughout the entire implementation phase, agile practices will be implemented to ensure that issues are addressed as they arise, and that any evolving customer needs are met.
+Implementation
+- This phase will see the actual connection of the systems.
+- This will be completed following these steps;
+- System Testing - the BankingMadeSimple application will be put through rigorous testing to ensure all modules interact seamlessly and work well with each other, the data synchronization, functionality testing, and security testing modules will be specifically rigorously tested to ensure no vulnerabilities.
+- Pilot Testing - implement a miniature version of the application to ensure any identified issues are addressed before the whole system is rolled out. User feedback is highly valuable in this phase.
+- Go-Live - after successful testing and integration of the application, full deployment will be rolled out to ensure the application is available to users.
+- Agile Project Management - throughout the entire implementation phase, agile practices will be implemented to ensure that issues are addressed as they arise, and that any evolving customer needs are met.
 
-###### Maintenance and support
-    This phase will ensure continued optimal performnce of the application.
-    Routine Diagnostics - these checks will help ensure the integrated system continues to work as required, and no errors occur during data transmission.
-    Performance monitoring - this will ensure any latency, API, and transaction processing issues are identified and corrected early.
-    Error resolution - this step will see creation of clear channels to report logs, implement hotfixes and updates as needed are put in place
-    Continuous updates - this will be crucial in ensuring any occuring bugs are fixed, and new features are implemented as customer needs and business processes change. 
-    User Feedback Loop - this step will typically enhance continous improvement of the integration process as well as the application itself.
+Maintenance and support
+- This phase will ensure continued optimal performnce of the application.
+- Routine Diagnostics - these checks will help ensure the integrated system continues to work as required, and no errors occur during data transmission.
+- Performance monitoring - this will ensure any latency, API, and transaction processing issues are identified and corrected early.
+- Error resolution - this step will see creation of clear channels to report logs, implement hotfixes and updates as needed are put in place
+- Continuous updates - this will be crucial in ensuring any occuring bugs are fixed, and new features are implemented as customer needs and business processes change. 
+- User Feedback Loop - this step will typically enhance continous improvement of the integration process as well as the application itself.
 
 #### Ensuring any discovered issues are resolved
-###### Identify, analyze and prioritize the issues.
-    Thoroughly understand the root cause of the problem, by gathering information on the problem, understanding its symptoms, and determining its effects on users.
-###### Assign the issue to the right person for resolution purposes
-    Choose the right member, with the right communication skills, as well as the required expertise and knowledge to resolve the issue.
-###### Implementing a solution fix depending on the gravity of the issue. 
-    Code may need to be modified, or configurations adjusted, through development of the solution. Encourage collaboration between members as the bug is being fixed, and test the fix.
-###### Once the issue is resolved, involve stakeholders to ensure their expectations are met.
-###### Document the issue resolution.
-    Provide details on what caused the bug, the fix implemented, results of the fix implementation, and feedback, approval from the stakeholders. The documentation will be a valuable tool for future reference and in the continuous improvement of the application.
-###### Notify relevant parties on closure of the issue.
-    Once the issue is resolved, stakeholders, users and any other relevant parties will be notified that it is resolved.
-###### Continous monitoring and preventative measures.
-    This step will ensure smooth operations of the system, it will also ensure that in case the issue arises again, it is addressed promptly.
+Identify, analyze and prioritize the issues.
+- Thoroughly understand the root cause of the problem, by gathering information on the problem, understanding its symptoms, and determining its effects on users.
+Assign the issue to the right person for resolution purposes
+- Choose the right member, with the right communication skills, as well as the required expertise and knowledge to resolve the issue.
+Implementing a solution fix depending on the gravity of the issue. 
+- Code may need to be modified, or configurations adjusted, through development of the solution. Encourage collaboration between members as the bug is being fixed, and test the fix.
+Once the issue is resolved, involve stakeholders to ensure their expectations are met.
+Document the issue resolution.
+- Provide details on what caused the bug, the fix implemented, results of the fix implementation, and feedback, approval from the stakeholders. The documentation will be a valuable tool for future reference and in the continuous improvement of the application.
+- Notify relevant parties on closure of the issue.
+- Once the issue is resolved, stakeholders, users and any other relevant parties will be notified that it is resolved.
+Continous monitoring and preventative measures.
+- This step will ensure smooth operations of the system, it will also ensure that in case the issue arises again, it is addressed promptly.
 
 
 # Traceability Links
