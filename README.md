@@ -73,7 +73,7 @@ Nextjs port is 3000, therefore the application will run on:
 To deploy the project using Vercel, follow these steps:
 
 1. Go to the [Vercel Website](https://vercel.com/) and create an account if you don't have one.
-2. Link your GitHub repository to deploy the application directly from your already cloned, installed, and running project.
+2. Link your GitHub repository to deploy the application directly from your already cloned, installed, and running project, by connecting your github account.
 3. You can also deploy the website by importing my repository here:
    [BankingMadeSimple](https://github.com/KawiraSharon/GVSU-CIS641-Soloscribe.git)
 4. Update the environment variables on the Vercel website, matching those from your `.env.local` file.
