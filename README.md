@@ -1,6 +1,6 @@
-# Team Name
+# Soloscribe
 
-Project description (~1 paragraph)
+BankingMadeSimple is a banking application that utilizes a simple and intuitive user iterface to allow users to perform simple banking operations like signing up, signing in and out, sending and receiving money. It also allows users to link multiple bank accounts by utilizing an API called Plaid.
 
 ## Team Members and Roles
 
@@ -24,6 +24,7 @@ Project description (~1 paragraph)
 #create a file in the root of your project and call it <filename>.env.local
 #configure the appwrite, plaid and dwolla environment variables.
 #Please create an account for each of the envs and replace the keyholder with your own values
+
     For Next.js
     NEXT_PUBLIC_APPWRITE_ENDPOINT=https://appwrite.your-domain.com""" find and replace 
     NEXT_PUBLIC_APPWRITE_PROJECT_ID=<appwrite-project-id>
@@ -41,6 +42,10 @@ Project description (~1 paragraph)
     PLAID_CLIENT_ID=<plaid-client_id>
     PLAID_SECRET=plaid-<secret>
     PLAID_PUBLIC_KEY=<plaid-public_key>
+
+For Next.js:
+
+NEXT_PUBLIC_APPWRITE_ENDPOINT=https://appwrite.your-domain.com NEXT_PUBLIC_APPWRITE_PROJECT_ID=<appwrite-project-id>
 
 5. Now run the application on your machine
 #Please paste this command on your terminal after setting up the environment variables:
