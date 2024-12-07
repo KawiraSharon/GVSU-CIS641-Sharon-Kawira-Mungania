@@ -146,7 +146,7 @@ This section contains a description of the functional and non-functional require
 # Change management plan
 This section outlines the change management plan for the BankingMadeSimple application, emphasizing user adoption and implementation. The goal is to ensure that individual users can easily integrate and adopt the application into their daily banking activities, ensuring a simple, seamless and efficient user experience.
 
-- Training people to use the application
+Training people to use the application
 Incorporating a product tour for first time users. 
     This feature will provide a step by step guidance for first time users to ensure they are not overwhelmed by the features of the application. The tour will help users know where to find each functionality where it begins as follows;
     Begin with a welcome message, shows users where to enter their details securely, the sign in, sign up functionalities.
@@ -308,6 +308,13 @@ Continous monitoring and preventative measures.
 | classAuthentication   | FR6, FR7, FR11, NFR1, NFR3, NFR5       |
 | Transaction           | FR22, FR24, NFR2, NFR5                 |
 
+
+# Software Artifacts
+This section is a description of all the artifacts linked to this project. It contains hyperlinks that redirect one to each of those artifacts.
+
+
+
+--include the ppt here too--
 
 
 Please note that the project was implemented as a two-course project. Please see below the features implemented for this course; CIS 641, Systems Analysis and Design, versus the features implemented for course CIS611, Introduction to Software Engineering.
