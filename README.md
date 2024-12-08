@@ -69,7 +69,7 @@ npm run dev
 Next.js uses port 3000, so the application will run on:
 [http://localhost:3000](http://localhost:3000)
 
-## 6. Deploying Using Vercel
+## Deploying Using Vercel
 To deploy the project using Vercel, follow these steps:
 
 1. Go to the [Vercel Website](https://vercel.com/) and create an account if you don't have one.
