@@ -24,7 +24,7 @@ git clone <command copied from GitHub>
 
 Navigate to the project directory:
 ```bash
-cd <your repository>
+cd GVSU-CIS641-Soloscribe\src\banking>
 ```
 
 #### 3. Install and Pull All Dependencies and Requirements
