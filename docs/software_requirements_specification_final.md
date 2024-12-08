@@ -312,7 +312,7 @@ This section is a description of all the artifacts linked to this project. It co
 * [Gantt Chart](https://github.com/KawiraSharon/GVSU-CIS641-Soloscribe/blob/b5672212917dbb2c49447867736538cd94aa5e03/artifacts/artifacts/GanttChart.pdf)
 * [PreconsPostcons](https://github.com/KawiraSharon/GVSU-CIS641-Soloscribe/blob/b5672212917dbb2c49447867736538cd94aa5e03/artifacts/artifacts/PreconsPostcons.pdf)
 * [SystemOverview](https://github.com/KawiraSharon/GVSU-CIS641-Soloscribe/blob/b5672212917dbb2c49447867736538cd94aa5e03/artifacts/artifacts/SystemOverview.pdf)
-* [Presentation Slides to PDF](https://github.com/KawiraSharon/GVSU-CIS641-Soloscribe/blob/b5672212917dbb2c49447867736538cd94aa5e03/docs/Presentation_Slides_to_PDF.pdf)
+* [Presentation Slides to PDF](https://github.com/KawiraSharon/GVSU-CIS641-Soloscribe/blob/0d19b89913a7769e631557692a10ac1e6169f11a/docs/Semester_Project_Presentation_Slides_to_PDF.pdf)
 
 
 
